@@ -123,3 +123,50 @@ deployment commands
 git init
 git add .
 git commit -m "first commit"
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sine</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I love coding and full stack development.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 My Portfolio</p>
+    </footer>
+</body>
+</html>
+
+body {
+    font-family: Arial;
+    margin: 0;
+    text-align: center;
+}
+header, footer {
+    background: black;
+    color: white;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: lightgray;
+    padding: 10px;
+}
